@@ -1,13 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Button } from '@chakra-ui/react'
+import { Box, Button } from '@chakra-ui/react'
+import {Route, Routes} from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import CreatePage from './pages/CreatePage'
+import NavBar from './components/NavBar'
 
 function App() {
   
 
   return (
-    <Button>Heilo</Button>
+    <Box minH={"100vh"}>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/create" element={<CreatePage />}></Route>
+      </Routes>
+    </Box>
   )
 }
 
