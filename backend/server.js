@@ -1,7 +1,6 @@
 //Importing dependecies
 const dotenv = require('dotenv');
 const express = require ('express');
-const mongoose = require('mongoose');
 const connectToDB = require('./config/db.js')
 
 //Configuring env variables
@@ -14,8 +13,8 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 //Declaring a route for testing
-app.get('/products', (req,res) => {
-    res.send('All products')
+app.post('/products', (req,res) => {
+    
 })
 
 
