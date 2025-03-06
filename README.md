@@ -2,6 +2,8 @@
 My Store is a full-stack e-commerce app built using the MERN Stack.
 I've built it with Chakra ui components in order to learn how to use a component system. The DB is created when the backend server is ran, so you have to change the DB url as shown in instructions.
 
+[Demo](https://youtu.be/2YicpTSrueo)
+
 ## Features
 - Create and edit products
 - Browse products
