@@ -17,11 +17,12 @@ I've built it with Chakra ui components in order to learn how to use a component
 1.Clone the repository
 
 2.Install dependencies:
-    -For backend(from root):
+For backend(from root):
     cd backend
     npm install
         
-    -For frontend(from root):
+For frontend(from root):
+    cd frontend
     npm install
 
 3.Setup enviroment variables:
