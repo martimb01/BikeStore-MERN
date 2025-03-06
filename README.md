@@ -36,9 +36,18 @@ MONGO_URL=your_mongodb_connection_string
 
 4. Start the application:
     -Backend server(from root):
+    ```console
     cd backend
     npm run start (to run server.js with node) 
+    ```
     OR
+    ```console
     npm run devStart to (run server.js with nodemon)
+    ```
+
+    -Frontend server(from root):
+    ```console
+    npm run dev
+    ```
 
 5.Open your browser on http://localhost:5173
