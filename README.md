@@ -18,12 +18,16 @@ I've built it with Chakra ui components in order to learn how to use a component
 
 2.Install dependencies:
 For backend(from root):
-    cd backend
-    npm install
+```console
+cd backend
+npm install
+```
         
 For frontend(from root):
-    cd frontend
-    npm install
+```console
+cd frontend
+npm install
+```
 
 3.Setup enviroment variables:
 PORT=5000 (The Port needs to be 5000 because of the frontend/store/products.js file)
